@@ -1,0 +1,12 @@
+- hosts: all
+  become: yes
+
+  pre_tasks:
+    - name: Init Base VM
+      ansible.builtin.include_role:
+        name: wahlax.init_base
+
+  tasks:
+
+    - name: Install cloud init
+      ansible.builtin.command: yum -y install cloud-init

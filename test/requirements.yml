@@ -1,0 +1,6 @@
+---
+
+- src: https://github.com/wahlax/ansible-init_base-role
+  version: main
+  name: wahlax.init_base
+

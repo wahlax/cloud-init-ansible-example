@@ -1,0 +1,6 @@
+---
+
+- src: https://github.com/wahlax/ansible-tomcat-role
+  version: main
+  name: wahlax.tomcat
+
